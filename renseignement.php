@@ -1,10 +1,10 @@
-<?php // CODE CREATEUR pyrospower
+<?php
 
 echo " <!DOCTYPE HTML>" ;
 echo " <HTML> <HEAD>";
 echo " <META content=\"text/html; charset=UTF-8;\" http-equiv=\"Content-Type\"> ";
 echo " </HEAD> <BODY> ";
-// CODE CREATEUR pyrospower
+
 if ( isset($_POST['nom']) ) {
     echo $_POST['nom'] ;
 } else {
